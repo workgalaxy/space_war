@@ -1,0 +1,61 @@
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body video
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #000;
+	top: 0; right: 0; bottom: 0; left: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+#war_around
+{
+	width: 800px;
+	margin: 148px auto;
+	height: 600px;
+	background: #000;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	cursor: none;
+	overflow: hidden;
+}
+.ship_row
+{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+}
+.ship_cell
+{
+	width: 60px;
+	height: 30px;
+	margin: 0 10px;
+	background: url(../img/ship.jpg);
+	float: left;
+}
+#tancer
+{
+	width: 100%;
+	height: 30px;
+	margin-top: 380px;
+}
+.bom
+{
+	display: block;
+	position: absolute;
+	width: 10px;
+	z-index: 9999;
+	margin-top: -50px;
+}
